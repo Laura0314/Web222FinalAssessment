@@ -1,0 +1,274 @@
+.container
+{
+    width: 1100px;
+    margin:auto;
+}
+
+header
+{
+    background-color:#b5c4b1;   
+    background-size: cover;
+    display: flex; 
+    padding-left: 40px;
+    height: 150px;
+    border-radius: 0.5rem;
+}
+
+h1
+{
+    font-family: "Comic Sans"; 
+    font-size: 5em; 
+    color: #656565;
+    font-weight: bold;
+    margin: auto;
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+    margin-left:0px ;
+    margin-top:5px;
+}
+
+nav
+{
+    padding:8px;
+    background-color: #656565;
+    border-radius: 0.5rem
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left:20px;
+    margin:0px;
+}
+
+nav ul li
+{
+    display:inline-block;
+}
+
+nav ul li a
+{
+    color: #eee;
+    text-decoration: none;
+    margin:40px;	
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:15px;
+}
+
+aside
+{
+    float: left;
+    width:250px;
+    height:800px;
+    margin-right:0px;
+    margin-bottom: 0;
+    background-color:#e0e5df;
+    border-radius: 0.5rem
+}
+
+aside h3
+{
+    color:#656565;
+    text-decoration: none;
+    margin:50px 10px 5px 10px;	
+    font-weight:bold;
+    font-size:23px;
+}
+
+aside p
+{
+    color: #939391;
+    text-decoration: none;
+    padding:0 10px;	
+    font-weight:bold;
+    font-size:18px;
+}
+
+.main
+{
+    background-color:#fdf9ee;
+    float:right;
+    width: 850px;
+    height: 800px;
+    margin-bottom:0px;
+    border-radius: 0.5rem
+}
+
+section.main h3
+{
+    color:#656565;
+    text-decoration: none;
+    margin:20px 10px 5px 10px;	
+    font-weight:bold;
+    font-size:23px;
+    text-align: center;
+}
+
+section.main h4
+{
+    color:black;
+    text-decoration: none;
+    margin:auto;	
+    font-weight:bold;
+    font-size:20px;
+    text-align: left;
+}
+
+section.main p
+{
+    color:#656565;
+    text-decoration: none;
+    margin-bottom: 10px;	
+    font-size:15px;
+    text-align: left;
+}
+
+#honesty p
+{
+    color: #656565;
+    text-decoration: none;
+    margin-left:120px;
+    margin-top: 30px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+footer
+{
+    margin:0;
+    clear:both;
+    background-color: #656565;
+    color: #eee;
+    padding:10px;
+    border-radius: 0.5rem;
+}
+
+footer h2
+{
+    margin:0px;
+    text-transform: uppercase;
+    font-size:15px;
+    padding:0 5px;	
+    text-align: center;
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 600px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #656565;
+    border-radius: 1em;
+    background-color: white;
+}
+
+form div + div 
+{
+    margin-top: auto;
+}
+
+form p
+{
+   font-weight: bold;
+   font-size:18px;
+   color: #656565;
+   margin-left:70px;
+   text-align: left;
+}
+
+div.userInput label 
+{
+    color: #656565;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    font-weight:bold;
+    font-size:18px;
+    margin-right: 40px;
+}
+
+div.userInput input 
+{
+    font: 18px sans-serif;
+    /* To give the same size to all text field */
+    width: 260px;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box;    /* For all Gecko based browsers */
+    box-sizing: border-box;
+    margin-right: 90px;
+}
+
+div.userRadio
+{
+    text-align: center;
+}
+
+div.userRadio label
+{
+    color: #656565;
+    width: 200px;
+    font-weight:bold;
+    font-size:12px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+div.userRadio input
+{
+    margin-left: 10px;
+}
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 200px;
+    padding: 0;
+    border-radius: 0.5rem;
+    background: #e8eeef;
+    font-size: 23px;
+    padding-left: 16px;
+    margin-top: 16px;
+  }
+  
+input 
+{
+border: 1px solid #656565;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus
+{
+  border: solid 2px #7b8b6f;
+}
+  
+button
+{
+    width:200px;
+    margin-left: 60px;
+    color: #656565;
+    background: #e0e5df;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+  
+button:focus
+{
+    background: #7b8b6f;
+    color: #eee;
+    font-size: 18px;
+}
+  
+  .not-valid {
+    border: 2px solid #965454;
+  }
